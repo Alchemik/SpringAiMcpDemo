@@ -13,9 +13,11 @@ spring:
           connections:
             my-weather-server:
               url: http://localhost:8080
-        stdio:
-          connections:
-            brave-search:
-              command: npx
-              args: ["-y", "@modelcontextprotocol/server-brave-search"]
-
+#        stdio:
+#          connections:
+#            brave-search:
+#              command: npx
+#              args: ["-y", "@modelcontextprotocol/server-brave-search"]
+logging:
+  pattern:
+    console: "%clr(%d{HH:mm:ss.SSS}){faint} %clr(%-5level){%level} %clr([%-15.15thread]){faint} %clr(%-40.40logger{39}){cyan} : %msg%n"

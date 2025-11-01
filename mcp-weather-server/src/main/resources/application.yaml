@@ -8,3 +8,6 @@ spring:
 
   main:
     banner-mode: off
+logging:
+  pattern:
+    console: "%clr(%d{HH:mm:ss.SSS}){faint} %clr(%-5level){%level} %clr([%-15.15thread]){faint} %clr(%-40.40logger{39}){cyan} : %msg%n"
