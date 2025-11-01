@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mcp-weather-server
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+
+  main:
+    banner-mode: off

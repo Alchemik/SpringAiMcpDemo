@@ -18,10 +18,10 @@ repositories {
     mavenCentral()
 }
 
-extra["springAiVersion"] = "1.0.3"
+extra["springAiVersion"] = "1.1.0-M1"
 
 dependencies {
-    implementation("org.springframework.ai:spring-ai-starter-mcp-server")
+    implementation("org.springframework.ai:spring-ai-starter-mcp-server-webmvc")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
