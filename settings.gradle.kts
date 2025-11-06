@@ -1,2 +1,3 @@
 rootProject.name = "SpringAiMcpDemo"
-include(":spring-ai-mcp-demo")
+include(":mcp-weather-client")
+include(":mcp-weather-server")
